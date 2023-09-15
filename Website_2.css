@@ -1,0 +1,17 @@
+body {
+    height: 1200px;
+    background-color: lightblue;
+    padding-top: 75px;
+}
+.HeaderBar{
+    background-color: rgb(50, 101, 113);
+    height: 74px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    border-bottom-width: 7px;
+    border-bottom-style: solid;
+    border-color: rgb(50, 2, 100);
+    text-align: center;
+}
