@@ -2,6 +2,7 @@ body {
     height: 1200px;
     background-color: lightblue;
     padding-top: 75px;
+    padding-left: 70px;
 }
 .HeaderBar{
     background-color: rgb(50, 101, 113);
@@ -14,4 +15,71 @@ body {
     border-bottom-style: solid;
     border-color: rgb(50, 2, 100);
     text-align: center;
+}
+.Section1{
+    min-height: 270px;
+    display: flex;
+    flex-direction: row;
+}
+.InnerSection1A{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+}
+.InnerSection1B{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-top: 10px;
+}
+.Image1{
+    display: flex;
+    border-bottom-left-radius: 90px;
+    width: 400px;
+    vertical-align: end;
+}
+.Button1{
+    background-color: rgb(59, 59, 219);
+    color: white;
+    border: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 18px;
+    transition: opacity 0.25s, color 0.35s, background-image 0.35s;
+}
+.Button1:hover{
+    cursor: pointer;
+    opacity: 75%;
+}
+.Button1:active{
+    color: rgb(59, 59, 219);
+    background-color: white;
+}
+
+
+.AllSections{
+    display: flex;
+    flex-direction: column;
+}
+.Section2{
+    display: flex;
+    flex-direction: row;
+}
+.InnerSection2A{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+}
+.InnerSection2B{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-left: 30px;
+    padding-top: 30px;
 }
